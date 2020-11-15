@@ -33,6 +33,7 @@ defmodule Tomaszkowal.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+      {:boundary, "~> 0.7.0", runtime: false},
       {:distillery, "~> 2.1"},
       {:phoenix, "~> 1.5.4"},
       {:phoenix_html, "~> 2.11"},
