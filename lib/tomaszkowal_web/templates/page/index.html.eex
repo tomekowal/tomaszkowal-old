@@ -1,5 +1,7 @@
-<h1>Tomasz Kowal</h1>
-<ul>
-  <li><a href="https://twitter.com/snajper47">Twitter @snajper47</a></li>
-  <li><a href="https://www.linkedin.com/in/tomasz-kowal-b7627854/">LinkedIn</a></li>
-</ul>
+<div class="flex h-screen flex-col justify-center items-center">
+  <h1 class="text-6xl">Tomasz Kowal</h1>
+  <ul>
+    <li><a class="text-orange-300 hover:text-orange-400 visited:text-blue-400" href="https://twitter.com/snajper47">Twitter @snajper47</a></li>
+    <li><a class="text-orange-300 hover:text-orange-400 visited:text-blue-400" href="https://www.linkedin.com/in/tomasz-kowal-b7627854/">LinkedIn</a></li>
+  </ul>
+</div>

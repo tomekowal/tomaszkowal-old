@@ -1,0 +1,7 @@
+* Equidistant color palette
+  https://learnui.design/tools/data-color-picker.html#palette
+  #2f3082 blue
+  #b32380 purple
+  #fe4a4f red
+  #ffa600 orange
+  #b7ff03 green
