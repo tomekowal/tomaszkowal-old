@@ -1,4 +1,16 @@
 @tailwind base;
+
+@layer base {
+  .glow {
+    text-shadow: none;
+    transition: text-shadow 1s;
+  }
+  .glow:hover {
+    text-shadow: 0px 0px 20px #00ff00;
+    transition: text-shadow 0s;
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
 

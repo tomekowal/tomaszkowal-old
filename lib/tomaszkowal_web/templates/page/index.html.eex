@@ -1,5 +1,11 @@
-<div class="flex h-screen flex-col justify-center items-center">
-  <h1 class="text-6xl">Tomasz Kowal</h1>
+<div class="flex h-screen w-screen flex-col justify-center items-center font-mono">
+  <h1 class="text-6xl">
+    <%= "Tomasz Kowal"
+    |> String.codepoints
+    |> Enum.map(fn codepoint -> "<span class=\"glow\">#{codepoint}</span>" end)
+    |> Enum.join
+    |> raw() %>
+  </h1>
   <ul>
     <li><a class="link" href="https://twitter.com/snajper47">Twitter @snajper47</a></li>
     <li><a class="link" href="https://www.linkedin.com/in/tomasz-kowal-b7627854/">LinkedIn</a></li>
